@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+
+    <title>SL Website Design</title>
+
+  </head>
+  <body class="text-center">
+
+<section class="alpha_top">
+<nav>
+  <img src="https://i.ibb.co/cyX8fHy/logo.png">
+  <div id="navBar" class="alpha_nav">
+    <i class="fa fa-bars" onclick="hide()"></i>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Signup.html">Sign Up</a></li>
+      <li><a href="SignIn.html">Sign in</a></li>
+      <li><a href="Feedback.html">Feedback</a></li>
+      <li><a href="Booking.html">Book Cargo</a></li>
+      <li><a href="shipment.html">Shipment Tracking</a></li>
+
+    </ul>
+  </div>
+  <i class="fa fa-bars" onclick="show()"></i>
+</nav>
+
+<div class="container">
+  <form id="contact" action="" method="post">
+    <h3 style="color:white">Feedback Form</h3>
+    <h4 style="color:white">Give us your valueable feebback so that we can improve our services</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your feedback here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+</section>
+
+<section>
+
+
+<div id="blos" class="footer">
+<p>We firmly believe that by helping people travel more, explore the world and experience diversity, we create a meaningful socio-economic impact.</p>
+<img src="https://i.ibb.co/312nBXG/a.png" width="2%" ></img>
+<img src="https://i.ibb.co/xLMj0Qf/b.png" width="2%" ></img>
+<img src="https://i.ibb.co/JrP3FTZ/d.png" width="2%" ></img>
+<img src="https://i.ibb.co/pXftFZ4/f.png" width="2.02%" ></img><br>
+<a href="mailto:alphabeta@example.com" line-height="3px";>GoCargoShip Logistics</a><br>
+
+</div>
+
+</section>
+
+<section>
+
+
+<script>
+
+  var navBar =document.getElementById("navBar");
+
+  function show(){
+    navBar.style.right="0";
+  }
+  function hide(){
+    navBar.style.right="-200px";
+  }
+</script>
+  </body>
+</html>
